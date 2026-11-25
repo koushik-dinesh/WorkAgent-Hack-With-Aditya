@@ -1,8 +1,11 @@
 # WORK AGENT
 
-**Team name:** CODE BLACK
-**Team members:** Koushik Dinesh, Aaryan Sharma, Kavya N, Thiru Vikram, Keerthan Vinay
+**Team name:** CODE BLACK 
+
+**Team members:** Koushik Dinesh, Aaryan Sharma, Kavya N, Thiru Vikram, Keerthan Vinay.
+
 Koushik Dinesh - Frontend and Backend, Aaryan Sharma - Frontend , Kavya N - Testing & PPT, Thiru Vikram - Testing, Keerthan Vinay - Pitching, PPT
+
 Turns meeting transcripts into reviewed, assigned action items.
 
 Upload or capture a meeting transcript, let an AI model propose action items with evidence from the transcript, review and approve them as an admin, then email each person their items and track progress in a personal task portal.
