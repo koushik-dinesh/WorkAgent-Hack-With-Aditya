@@ -1,17 +1,11 @@
 # WORK AGENT
 
-**Team name:** INNOV8
-**Team members:** Aaryan Sharma, R Sudharsan, Koushik Dinesh, Keerthan Vinay
-Koushik Dinesh - Frontend and Backend, Aaryan Sharma - Frontend , R Sudharsan - Testing
+**Team name:** CODE BLACK
+**Team members:** Koushik Dinesh, Aaryan Sharma, Kavya N, Thiru Vikram, Keerthan Vinay
+Koushik Dinesh - Frontend and Backend, Aaryan Sharma - Frontend , Kavya N - Testing & PPT, Thiru Vikram - Testing, Keerthan Vinay - Pitching, PPT
 Turns meeting transcripts into reviewed, assigned action items.
 
 Upload or capture a meeting transcript, let an AI model propose action items with evidence from the transcript, review and approve them as an admin, then email each person their items and track progress in a personal task portal.
-
-> **Status: v1 prototype.** It runs end to end on a developer machine. It is not deployed, has not been security-reviewed for production, and some integrations (the meeting bot, real email) are only partly verified. See [Known limitations](#known-limitations).
->
-> This README covers the original meeting-to-action features. Integrations (Jira, GitHub, Teams, Outlook, Google Calendar, Figma), the activity feed, search, suggestions, insights, the operations center and notifications were added later; see `docs/PROJECT_STATUS.md` for the current state and `docs/runbooks/integrations.md` for setup.
->
-> **2026-11-15 — action intelligence and execution** (`docs/ACTION_INTELLIGENCE.md`): action items from Teams, Jira, GitHub, Figma and Outlook as well as meetings, one item per commitment with its evidence trail, the **Action Center** (`/actions`), a central **execution engine** with previews, approvals, a 60-second cancel window, retries and verification (Jira, e-mail, Teams, GitHub, calendars; `/approvals`), follow-up automation, an assistant available on every page that can query the work graph and prepare bulk actions, and light/dark themes. **Google Meet is no longer a separate integration:** connect **Vexa** once and Google Meet meetings found in connected calendars are transcribed automatically (`docs/integrations/VEXA_SETUP.md`).
 
 ---
 
@@ -558,15 +552,6 @@ Features 2–6: see `docs/FEATURES.md` §9 (external services tested against fak
 - **Seed accounts** use example emails and passwords from `backend/.env`. Change them before sharing the app.
 - **Single-company by design.** Each customer gets its own deployment and database; there is no tenant separation inside one install.
 
----
-
-## Roadmap (after v1)
-
-- Deploy with production secrets, HTTPS and a real database host
-- Verify the Vexa bot against live Google Meet calls
-- Configure real email delivery and domain verification
-- Broader testing with real meeting transcripts
-- Multi-organisation support
 
 ---
 
